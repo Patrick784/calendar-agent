@@ -1,0 +1,13 @@
+# Ignore virtual environments
+env/
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore secrets
+.env
+token.json
+credentials.json
+
+# Ignore heavy libraries
+**/torch/lib/*
